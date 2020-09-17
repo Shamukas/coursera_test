@@ -6,6 +6,7 @@
 
 body {
     background-color: blueviolet;
+    
 }
 
 h1 {
@@ -38,20 +39,23 @@ h1 {
 }
 
 div {
+    /* align-content: center; */
     background-color: grey;
     border: 2px solid black;
     width: 400px;
     height: 130px;
     margin-bottom: 15px;
     margin-right: 10px;
+    align-items: center;
     position: relative;
     top: 60px;
-    width: 33,3%;
+    /* width: 33,3%; */
     float: left; 
 }
 
 .lorem {
-    margin-top: 0;
+    margin-left: 10px;
+    padding-left: 5px;
     float: left;
     
 }
